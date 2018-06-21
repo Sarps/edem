@@ -10,14 +10,7 @@
 		<author href="http://sarps.github.com" email="esarpong51@gmail.com">Edem - Stanbic		</author>
 		<content src="index.html" />
 	    <access origin="*" />
-		<feature name="http://api.phonegap.com/1.0/battery" />
-		<feature name="http://api.phonegap.com/1.0/camera" />
-		<feature name="http://api.phonegap.com/1.0/contacts" />
-		<feature name="http://api.phonegap.com/1.0/file" />
-		<feature name="http://api.phonegap.com/1.0/geolocation" />
-		<feature name="http://api.phonegap.com/1.0/media" />
 		<feature name="http://api.phonegap.com/1.0/network" />
-		<feature name="http://api.phonegap.com/1.0/notification" />
 		<preference name="phonegap-version" value="cli-6.3.0" />
 		<preference name="android-build-tool" value="gradle" />
 		<preference name="orientation" value="default" />
@@ -50,16 +43,16 @@
 		<preference name="LoadingDialog" value="," />
 		<preference name="LoadUrlTimeoutValue" value="null" />
 		<platform name="ios">
-		<icon src="file://E:\Projects\Stanbic\app\resources\res\mipmap-xxhdpi\icon.png" width="144" height="144" />
-		<splash src="file://E:\Projects\Stanbic\app\resources\splash.png" width="1242" height="2208" /> 
-		<splash src="file://E:\Projects\Stanbic\app\resources\splash - land.png" width="2208" height="1242" /> 
+		<icon src="icons\res\mipmap-xxhdpi\icon.png" width="144" height="144" />
+		<splash src="icons\splash.png" width="1242" height="2208" /> 
+		<splash src="icons\splash - land.png" width="2208" height="1242" /> 
 		</platform>
 		<platform name="android">
-		<icon src="file://E:\Projects\Stanbic\app\resources\res\mipmap-mdpi\icon.png" qualifier="mdpi" />
-		<icon src="file://E:\Projects\Stanbic\app\resources\res\mipmap-hdpi\icon.png" qualifier="hdpi" />
-		<icon src="file://E:\Projects\Stanbic\app\resources\res\mipmap-xhdpi\icon.png" qualifier="xhdpi" />
-		<icon src="file://E:\Projects\Stanbic\app\resources\res\mipmap-xxhdpi\icon.png" qualifier="xxhdpi" />
-		<icon src="file://E:\Projects\Stanbic\app\resources\res\mipmap-xxxhdpi\icon.png" qualifier="xxxhdpi" />
+		<icon src="icons\res\mipmap-mdpi\icon.png" qualifier="mdpi" />
+		<icon src="icons\res\mipmap-hdpi\icon.png" qualifier="hdpi" />
+		<icon src="icons\res\mipmap-xhdpi\icon.png" qualifier="xhdpi" />
+		<icon src="icons\res\mipmap-xxhdpi\icon.png" qualifier="xxhdpi" />
+		<icon src="icons\res\mipmap-xxxhdpi\icon.png" qualifier="xxxhdpi" />
 		</platform>
 		<platform name="winphone">
 		</platform>
