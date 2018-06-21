@@ -8,6 +8,8 @@
 		<name>Edem		</name>
 		<description>no description.		</description>
 		<author href="http://sarps.github.com" email="esarpong51@gmail.com">Edem - Stanbic		</author>
+		<content src="index.html" />
+	    <access origin="*" />
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/contacts" />
