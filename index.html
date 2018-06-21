@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<link rel="stylesheet" href="./dist/styles.css">
+</head>
+<body>
+	<div id="edem-bot" class="">
+		<div class="top">
+			<div class="top-space"></div>
+			<img src="images/logo-left.png" class="slide logo-left">
+			<div class="logo-right">
+				<img src="images/SBLogo_small.png" class="logo-right" onclick="maximize();">
+			</div>
+		</div>
+		<div class="body">
+			<!--figure class="mascot"><img src="images/SBLogo_small.png"></figure-->
+			<!--div class="message">hello</div>
+			<div class="message message-personal">hi</div>
+			<div class="message loader"></div-->
+		</div>
+		<div class="footer">
+			<form action="#"  onsubmit="sendMessage(event)">
+				<div class="">
+					<input type="text" name="message" class="search" width=350 placeholder="Say something..." autocomplete="off">
+				</div>
+			</form>
+		</div>
+	</div>
+    <script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="./dist/main.js"></script>
+</body>
+</html>
