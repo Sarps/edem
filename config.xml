@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="gh.com.stanbicbank.edem" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>app</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        Edem - Stanbic
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
